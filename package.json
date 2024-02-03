@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "tsc": "tsc",
+    "pino-pretty": "pino-pretty",
+    "analyze": "node scripts/analyze.js | npm run pino-pretty"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.15",
+    "@types/urijs": "^1.19.25",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "undici": "^6.6.0",
+    "urijs": "^1.19.11"
+  }
+}
